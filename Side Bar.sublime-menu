@@ -1,0 +1,18 @@
+[
+{
+    "id" : "vsplit",
+    "caption" : "vsplit",
+    "children":
+    [
+    {
+    		"caption" : "Move to new vsplit",
+    		"command" : "vsplit"
+    },
+    {
+    		"caption" : "Clone to new Vsplit",
+    		"command" : "vsplit",
+    		"args": {"clone_file": true}
+    }
+  	]
+}
+]
